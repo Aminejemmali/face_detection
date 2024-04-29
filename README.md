@@ -15,7 +15,7 @@ pip install opencv-python numpy
 To run the face detection system, execute the following command in the root directory of the project:
 
 ```bash
-python face_detection.py
+python detection.py
 ```
 
 Ensure your webcam is enabled and properly configured as the application uses the default camera device.
