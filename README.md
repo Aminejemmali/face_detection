@@ -6,17 +6,17 @@ This project implements a simple face and eye detection system using OpenCV in P
 
 Install the required Python packages:
 
-\```bash
+```bash
 pip install opencv-python numpy
-\```
+```
 
 ## Usage
 
 To run the face detection system, execute the following command in the root directory of the project:
 
-\```bash
+```bash
 python face_detection.py
-\```
+```
 
 Ensure your webcam is enabled and properly configured as the application uses the default camera device.
 
