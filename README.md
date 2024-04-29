@@ -20,16 +20,5 @@ python face_detection.py
 
 Ensure your webcam is enabled and properly configured as the application uses the default camera device.
 
-## Contributing
-
-Feel free to fork the repository and submit pull requests.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details.
-
-## Acknowledgments
-
-- Haar Cascades for face and eye detection.
-- OpenCV library for making the computer vision implementation accessible.
-- The contributors of OpenCV community for their invaluable resources.
+## Phase 1
+The project has successfully passed phase 1, including the detection of objects in one camera device.
