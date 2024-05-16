@@ -21,7 +21,7 @@ def main():
 
     cap_primary = cv2.VideoCapture(0)  # Internal webcam
     cap_secondary = cv2.VideoCapture(1)  # External webcam
-    stream_url = 'ip_from_droid_cam'
+    stream_url = 'http://192.168.1.15:4747/video'
     cap_third = cv2.VideoCapture(stream_url)
     if not cap_primary.isOpened() or not cap_secondary.isOpened() or not cap_third.isOpened():
         print("Failed to open webcams.")
@@ -62,6 +62,7 @@ def main():
     # Release video capture resources
     cap_primary.release()
     cap_secondary.release()
+    cap_third.release()
     # Close OpenCV windows
     cv2.destroyAllWindows()
 
