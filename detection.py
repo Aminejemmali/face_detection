@@ -38,7 +38,7 @@ def main():
         frame2 = detect_all_features(frame2, face_cascade , eye_cascade)
 
         # Resize frames to have same height
-        h1, w1 = frame1.shape[:2]
+        h1, w1 = frame1.shape[:2] 
         h2, w2 = frame2.shape[:2]
         max_height = max(h1, h2)
         frame1_resized = cv2.resize(frame1, (int(w1 * max_height / h1), max_height))
