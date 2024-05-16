@@ -23,5 +23,5 @@ Ensure your webcam is enabled and properly configured as the application uses th
 ## Phase 1
 The project has successfully passed phase 1, including the detection of objects in one camera device.
 ## Phase 2: Dual Camera Support
-In the upcoming phase 2, we plan to enhance the system to support simultaneous detection using two camera devices on the same machine. This will allow for more robust face and eye detection in diverse scenarios.
+Second phase completed, we plan to enhance the system to support simultaneous detection using two camera devices on the same machine. This will allow for more robust face detection in diverse scenarios.
 ..

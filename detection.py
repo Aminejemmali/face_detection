@@ -14,7 +14,7 @@ def detect_all_features(frame, face_cascade , eye_cascade):
 
 def main():
     face_cascade = cv2.CascadeClassifier('haarcascades/haarcascade_frontalface_alt2.xml')
-    eye_cascade = cv2.CascadeClassifier('haarcascades/haarcascade_eye.xml')
+    
   
     if face_cascade.empty() or eye_cascade.empty():
         print("Failed to load Haar cascades.")
